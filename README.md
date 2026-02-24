@@ -4,7 +4,7 @@ Machine Learning project based on the Bank Dataset of the Kaggle competition 'Bi
 ## Objective
 The goal of this project is to develop a machine learning model that predicts whether a bank customer will subscribe to a term deposit based on demographic and marketing campaign data.
 
-## 📊 Dataset Description
+## Dataset Description
 The dataset contains information about bank customers such as:
 
 - Age
