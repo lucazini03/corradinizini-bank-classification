@@ -6,11 +6,11 @@ Dataset from Kaggle competition:
 
 https://www.kaggle.com/competitions/playground-series-s5e8/
 
-The dataset is based on the Bank Marketing dataset and is used for binary classification tasks. :contentReference[oaicite:2]{index=2}
+The dataset is based on the Bank Marketing dataset and is used for binary classification tasks.
 
 ---
 
-## 📥 How to Download
+## How to Download
 
 1. Create a Kaggle account
 2. Join the competition
@@ -24,7 +24,7 @@ Files include:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset contains customer data including:
 
