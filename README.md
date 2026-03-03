@@ -74,7 +74,6 @@ corradinizini-bank-classification/
 │
 ├── data-software/
 │ ├── README.md
-│ ├── requirements.txt
 │ ├── bank_dataset_ml.ipynb
 │ ├── sample_submission.csv
 │ ├── submission.csv
@@ -85,6 +84,8 @@ corradinizini-bank-classification/
 │ ├── sources/
 │ ├── presentation.tex
 │ └── presentation.pdf
+├── poetry.lock
+├── pyproject.toml
 └── README.md
 
 ---
