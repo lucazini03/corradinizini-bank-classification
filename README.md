@@ -72,8 +72,8 @@ Leaderboard placement: **Top 14%**
 ## Dependencies
 Install with the following commands:
 
-poetry lock
-poetry install
+- poetry lock
+- poetry install
 
 ---
 
