@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "corradinizini-bank-classification"
+version = "0.1.0"
+description = "Bank term-deposit classification (XGBoost, LightGBM, CatBoost, stacking)"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+pandas = "^2.2.0"
+numpy = "^1.26.0"
+matplotlib = "^3.8.0"
+seaborn = "^0.13.0"
+scikit-learn = "^1.5.0"
+
+xgboost = "^2.1.0"
+lightgbm = "^4.5.0"
+
+# Pin catboost to a stable version; avoid 1.2.10 which is giving you trouble
+catboost = "1.2.5"
+
+jupyter = "^1.0.0"
+ipykernel = "^6.29.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+isort = "^5.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
