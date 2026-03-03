@@ -1,49 +1,47 @@
-# Dataset Information – Playground Series S5E8
+# Software and Data
 
-## Source
+## Kaggle Challenge
+Bank Marketing Binary Classification challenge.
 
-Dataset from Kaggle competition:
-
-https://www.kaggle.com/competitions/playground-series-s5e8/
-
-The dataset is based on the Bank Marketing dataset and is used for binary classification tasks.
+The goal is to predict whether a client subscribes to a term deposit.
 
 ---
 
-## How to Download
+## Installation
 
-1. Create a Kaggle account
-2. Join the competition
-3. Download files
+Requirements:
+- Python 3.10+
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- xgboost
+- lightgbm
+- catboost
 
-Files include:
+Install with:
 
-- train.csv
-- test.csv
-- sample_submission.csv
-
----
-
-## Dataset Description
-
-The dataset contains customer data including:
-
-- Demographics
-- Financial information
-- Previous marketing contacts
-- Campaign details
-
-Target variable:
-
-`y` → whether the customer subscribed to a term deposit.
+pip install requirements.txt
 
 ---
 
-## Project Description
+## Running the Project
 
-The goal is to build a predictive model to determine if a customer will subscribe to a term deposit based on the provided features. This involves:
-- Data preprocessing
-- Feature engineering
-- Model training and evaluation
-- Hyperparameter tuning
-- Submission of predictions
+1. Open the notebook bank_dataset_ml.ipynb
+2. Choose whether you want to run in local or Colab or Kaggle environment, and adjust the first cell accordingly.
+3. Run all cells in order.
+4. The final submission file will be generated automatically.
+
+---
+
+## Notebook Workflow
+1. Data loading and inspection
+2. Missing value check
+3. Data exploration
+4. Feature engineering
+5. Encoding categorical variables
+6. Training models
+7. Cross-validation
+8. Ensemble stacking
+9. Submission creation
