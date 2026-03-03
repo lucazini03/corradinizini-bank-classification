@@ -77,7 +77,6 @@ corradinizini-bank-classification/
 │   ├── README.md
 │   ├── sample_submission.csv
 │   ├── submission.csv
-│   ├── submission_prova.csv
 │   ├── test.csv
 │   └── train.csv
 ├── doc
