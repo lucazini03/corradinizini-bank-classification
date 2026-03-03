@@ -44,13 +44,12 @@ The notebook execution is way faster if you use a GPU, either in Colab/Kaggle or
 3. Data exploration
 4. Feature engineering
 5. Numerical features
-    6. Handle skewed distributions
+6. Handle skewed distributions
 7. Categorical features
-    8. Encoding categorical variables
-9. ML models
-    9. Random Forest as a baseline model and feature importance
-    10. XGboost
-    11. CatBoost
-    12. LightGBM
-    13. Ensemble stacking
+8. Encoding categorical variables
+9. ML models (Random Forest as a baseline model and feature importance)
+10. XGboost
+11. CatBoost
+12. LightGBM
+13. Ensemble stacking
 14. Submission file generation
