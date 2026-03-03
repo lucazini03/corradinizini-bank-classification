@@ -70,23 +70,25 @@ Leaderboard placement: **Top 14%**
 ---
 
 ## Repository Structure
+```bash
 corradinizini-bank-classification/
-│
-├── data-software/
-│ ├── README.md
-│ ├── bank_dataset_ml.ipynb
-│ ├── sample_submission.csv
-│ ├── submission.csv
-│ ├── test.csv
-│ └── train.csv
-├── doc/
-│ ├── imgs/
-│ ├── sources/
-│ ├── presentation.tex
-│ └── presentation.pdf
+├── data-software
+│   ├── bank_dataset_ml.ipynb
+│   ├── README.md
+│   ├── sample_submission.csv
+│   ├── submission.csv
+│   ├── submission_prova.csv
+│   ├── test.csv
+│   └── train.csv
+├── doc
+│   ├── imgs/
+│   ├── presentation.pdf
+│   ├── presentation.tex
+│   └── sources/
 ├── poetry.lock
 ├── pyproject.toml
 └── README.md
+```
 
 ---
 
